@@ -35,3 +35,9 @@ code_reset = """
     python -m venv --clear 仮想環境名
 """
 st.code(code_reset, language="python")
+
+st.text("④仮想環境の削除_もう一つの方法")
+code_reset = """
+   Remove-Item 仮想環境名 -Recurse -Force
+"""
+st.code(code_reset, language="python")
