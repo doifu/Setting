@@ -1,4 +1,5 @@
 import tabula
+from tabula import read_pdf
 import streamlit as st
 
 with st.form(key = "file_form"):
