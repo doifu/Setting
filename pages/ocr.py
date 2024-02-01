@@ -36,4 +36,4 @@ if submit_btn:
     #2 システイン数をカウント
     cys_num =amino_acid.count("C")
     st.text(cys_num)
-    
+
