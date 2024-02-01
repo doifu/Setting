@@ -36,6 +36,6 @@ st.code(code_remote, language= "python")
 
 st.text("⑤push")
 code_push = """
-    git push -u oridin main
+    git push -u origin main
 """
 st.code(code_push, language= "python")
