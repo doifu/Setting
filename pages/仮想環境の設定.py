@@ -19,7 +19,7 @@ st.code(code_activate, language= "python")
 
 from PIL import Image
 
-image_1 = Image.open(".\image\Venv\1.png")
+image_1 = Image.open("./image/Venv/venv.png")
 st.image(image_1, width=500) #場合によっては大きさをwidthで設定する
 
 
