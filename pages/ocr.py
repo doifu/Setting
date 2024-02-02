@@ -12,7 +12,7 @@ def read_picture(file):
     img = Image.open(file, "r")
     
     # tesseractコマンドのインストールパス
-    pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
     
     # 文字列として出力できる。
     ocr_result = pytesseract.image_to_string(img, lang="eng+jpn")
